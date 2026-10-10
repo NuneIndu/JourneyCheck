@@ -1,0 +1,21 @@
+node_modules/
+*.local
+# Firebase private keys
+serviceAccountKey.json
+*-firebase-adminsdk-*.json
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local SMS/WhatsApp test script
+send_whatsapp.py
+
+# Python generated files
+__pycache__/
+*.pyc
+
+# Flutter generated files
+.dart_tool/
+build/
